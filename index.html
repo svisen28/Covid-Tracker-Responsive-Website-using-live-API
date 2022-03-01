@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid Tracker</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+
+
+
+    <link rel = "stylesheet" href= "http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" >
+	
+	<!-- jQuery library -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js" >  </script>
+	
+	<!-- Latest Compiled JavaScript -->
+	<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js " >  </script>
+  
+  <style>
+
+
+        .carousel-inner > .item > img {
+        
+        width: 100%;
+        margin: auto;
+        
+        }
+    
+           .xyz
+           {
+               background-color: #3c6382;
+               border:black;
+               color: white;
+               font-size: xx-large;
+               text-align: center;
+           }
+           
+        </style>
+    
+    
+</head>
+<body style="background-color: antiquewhite;">
+
+       <header> 
+           
+         <a href="#" class="logo">Covid<span style="color: red;">Tracker</span></style><img src="images/covid.svg" width="10%" style="margin-left: auto;"
+            alt="covid virus"></a> 
+        
+        <div id="menu" class="fas fa-bars"></div>
+        <div class=" navbar">
+            <ul>
+            <li><a class="active navbar"  href="#">Home</a></li>  <!-- Change link to updates !--> 
+            <li> <a class="navbar" href="#live-up">Live Updates</a></li>
+            <li><a class="navbar" href="vaccine.html" target="_blank">Vaccine</a></li>
+              <li><a class="navbar" href="info.html" target="_blank">Covid Info</a></li>
+            
+            <li><a class="navbar" href="feedback.php" target="_blank">User</a></li>
+           
+            <!-- can make seperate hyperlinks for india  nd world   -->
+        </ul> </div>
+    </header>    
+    
+     
+
+<div class = "container" style="background-color: antiquewhite;">
+    <br>
+	
+	<div id = "carousel" class = "carousel slide" data-ride = "carousel">
+	
+	    <!-- CAROUSEL INDICATORS -->
+	
+	    <ol class = "carousel-indicators">
+	
+	        <li data-target = "carousel" data-slide-to = "0" > </li>
+	        <li data-target = "carousel" data-slide-to = "1" class = "active " > </li>
+	        <li data-target = "carousel" data-slide-to = "2" > </li>
+	        <li data-target = "carousel" data-slide-to = "3" > </li>
+	
+	    </ol>
+	
+	
+	    <!-- WRAPPER FOR SLIDES -->
+		
+		    <div class = "carousel-inner" role = "listbox">
+			
+			    <div class = "item active" >
+			        <img src = "images/live-updates.png" width = "450" height = "340" />
+					
+					    <div class = "carousel-caption">
+			 
+			                <h3> Updates </h3>
+			
+			                <p>  </p>
+			
+			            </div>
+			
+			    </div>
+			
+			
+			    <div class = "item" >
+			        <img src = "images/covid_wear_mask.png" width = "450" height = "340" />
+					
+					    <div class = "carousel-caption">
+			 
+			                <h3> Wear Mask. </h3>
+			
+			                
+			
+			            </div>
+			
+			    </div>
+				
+				
+				<div class = "item " >
+			        <img src = "images/Doctors.png" width = "450" height = "340" />
+					
+					    <div class = "carousel-caption">
+			 
+			                <h3> Doctors. </h3>
+			
+			                
+			
+			            </div>
+			
+			    </div>
+				
+				
+				<div class = "item " >
+			        <img src = "images/vaccine.jpg" width = "450" height = "340" />
+					
+					    <div class = "carousel-caption">
+			 
+			                <h3> Vaccine. </h3>
+			
+			                
+			
+			            </div>
+			
+			    </div>
+			
+			
+			</div>
+			
+			
+			<!-- LEFT AND RIGHT CONTROL LINKS -->
+			
+			<a class = "left carousel-control" href = "#carousel" role = "button" data-slide = "prev">
+			
+			    <span class = "glyphicon glyphicon-chevron-left" aria-hidden = "true" > </span>
+			
+			</a>
+			
+			
+			<a class = "right carousel-control" href = "#carousel" role = "button" data-slide = "next">
+			
+			    <span class = "glyphicon glyphicon-chevron-right" aria-hidden = "true" > </span>
+			
+			</a>
+	
+	
+	    </div>
+
+
+
+</div>
+    
+
+
+
+  <section>
+  <div class="live-up" id="live-up">
+    <div>
+      <h2>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;India&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp;&nbsp;World</h2>
+     
+    &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+      <a href="india.php" target="_blank"><img src="./images/india_map.jpg" alt="" width="500px" height="500px"></a>
+      &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+      
+      <a href="world.php" target="_blank"><img src="./images/world-map.png" alt="" width="500px" height="500px"></a>
+    </div>
+  </div>
+</section>
+  
+
+   <section class="hand-wash" id="hand-wash">
+    <h1 class="heading">how to wash hands properly</h1>
+     <div class="column">
+         <div class="box-container">
+ 
+          <div class="box">
+                <img src="./images/wash-a.png" alt="">
+                <h3>Water and Soap</h3>
+            </div>
+            <div class="box">
+                <img src="./images/wash-b.png" alt="">
+                <h3>Palm to Palm</h3>
+            </div>
+            <div class="box">
+                <img src="./images/wash-c.png" alt="">
+                <h3>Between Fingers</h3>
+            </div>
+            <div class="box">
+                <img src="./images/wash-d.png" alt="">
+                <h3>Focus on Thumbs</h3>
+            </div>
+            <div class="box">
+                <img src="./images/wash-e.png" alt="">
+                <h3>Back of Hands</h3>
+            </div>
+            <div class="box">
+                <img src="./images/wash-f.png" alt="">
+                <h3>Focus on wrist</h3>
+            </div>
+         </div>
+         <div class="main-image">
+             <img src="./images/main-wash-img.png" alt="">
+         </div>
+     </div>
+   </section>
+
+   <section class="doctor" id="doctor">
+    <h1 class="heading">Meet our Developers.</h1>
+    <div class="box-container">
+        <div class="box">
+            <img src="./images/ayush.jpeg" alt="">
+            <h3>Ayush Mittal</h3>
+            <span>20103073</span>
+            <div class="share">
+                <a href="http://wa.me/+919950358870" class="fab fa-whatsapp"></a>
+                <a href="https://www.facebook.com/ayush.mittal.1004" class="fab fa-facebook"></a>
+                <a href="https://mobile.twitter.com/Am10AyushMi" class="fab fa-twitter"></a>
+                <a href="https://www.instagram.com/imaayushmittal/" class="fab fa-instagram"></a>
+                <a href="https://www.linkedin.com/in/ayush-mittal-39936321b/" class="fab fa-linkedin"></a>
+            </div>
+        </div>
+        <div class="box">
+          <img src="./images/ishan.jpeg" alt="">
+          <h3>Ishan Chaudhary</h3>
+          <span>20103059</span>
+          <div class="share">
+              <a href="https://wa.me/918265985160" class="fab fa-whatsapp"></a>
+              <a href="#" class="fab fa-facebook"></a>
+              <a href="https://twitter.com/IshanChaudhar17?t=EfwfuF5TeNX7zFWseiENmg&s=09" class="fab fa-twitter"></a>
+              <a href="https://instagram.com/ishanchaudhary01?utm_medium=copy_link" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/ishan-chaudhary-24234418a" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+          <img src="./images/shivi.jpeg" alt="">
+          <h3>Shivi Mehrotra</h3>
+          <span>20103064</span>
+          <div class="share">
+              <a href="https://wa.me/916386410057" class="fab fa-whatsapp"></a>
+              <a href="https://www.facebook.com/shivimehrotra04" class="fab fa-facebook"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="https://www.instagram.com/__shiiivvviii__/" class="fab fa-instagram"></a>
+              <a href="https://www.linkedin.com/in/shivi-mehrotra-009669216" class="fab fa-linkedin"></a>
+          </div>
+      </div>
+      <div class="box">
+        <img src="./images/sid.jpeg" alt="">
+        <h3>Siddharth Visen</h3>
+        <span>20103080</span>
+        <div class="share">
+            <a href="https://wa.me/919118111419" class="fab fa-whatsapp"></a>
+            <a href="https://www.facebook.com/siddharth.visen.1" class="fab fa-facebook"></a>
+            <a href="https://twitter.com/SiddharthVisen1" class="fab fa-twitter"></a>
+            <a href="https://www.instagram.com/svisen_ig/" class="fab fa-instagram"></a>
+            <a href="https://www.linkedin.com/in/siddharth-visen-842689209/" class="fab fa-linkedin"></a>
+        </div>
+    </div>
+    </div>
+</section>
+
+
+  <div class="footer">
+      <div class="box-container">
+          <div class="box">
+              <h3>about us</h3>
+              <p>Ambitious group of future Engineers.</p>
+          </div>
+          <div class="box">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d96708.34194156103!2d-74.03927096447755!3d40.75904032940519!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c2588f046ee661%3A0xa0b3281fcecc08c!2sManhattan%2C%20New%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sin!4v1627539460092!5m2!1sen!2sin" width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="box">
+            <h3>quick links</h3>
+            <a href="#">Home</a>
+            <a href="#live-up">Live Updates</a>
+            <a href="vaccine.html">Vaccine</a>
+            <a href="info.html">Covid Info</a>
+            <a href="feedback2.html">User</a>
+            
+       </div>
+    
+       
+       
+   <div class="copyrightblock">
+    <h1 class="credit" >Developed by <a href="https://www.jiit.ac.in/">JIITians</a> &copy; copyright @ 2021</h1>
+   </div>
+   
+  </div>
+
+  <a href="#"  class="scroll-top">
+      <img src="./images/scroll-img.png" alt="">
+  </a>
+</body>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
+
+</html>
+<!-- cdnjs.cloudflare.com is an ultra-fast, reliable, globally available content delivery network for open-source libraries -->
